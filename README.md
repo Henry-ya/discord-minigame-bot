@@ -1,31 +1,39 @@
-# Discord Games Bot
+# Discord mini games Bot
 
-This is a Discord bot that allows users to play games like Wordle and Blackjack within their Discord server. The bot uses slash commands for interaction and provides an engaging way to play these games with friends.
+This is a Discord bot that allows users to play games like Wordle and Blackjack within their Discord server. The bot uses slash commands for interactions while giving the user an oppertunity to add new games
 
 ## Features
 
 - **Wordle**: A word guessing game where players have six attempts to guess a five-letter word.
-- **Blackjack**: A classic card game where players try to reach 21 points without going over, using emoji poker cards.
+- **Blackjack**: A classic card game where the goal is to beat the dealer by getting a hand value as close to 21 as possible without exceeding it.
 
   **More mini games coming soon**
+  
 ## Installation
+
+### Prerequisites
+  
+  **Python 3.7+**
+  
+- `discord.py` library
+  ```bash
+  pip install discord.py
+  ```
+  
+- `discord-ext-bot` library
+  ```bash
+  
+  pip install discord-ext-bot
+  ```
 
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/yourusername/discord-games-bot.git
+    git clone (https://github.com/Henry-ya/discord-minigame-bot)
     cd discord-games-bot
     ```
 
-2. **Install Dependencies**
-
-    Install the required dependencies using pip:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Set Up Your Discord Bot**
+2. **Set Up Your Discord Bot**
 
     - Go to the [Discord Developer Portal](https://discord.com/developers/applications).
     - Create a new application and add a bot to it.
