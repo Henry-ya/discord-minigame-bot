@@ -76,4 +76,4 @@ async def split_command(ctx):
 async def status_blackjack_command(ctx):
     await status_blackjack(ctx, games)
 
-bot.run('token here')
+bot.run('token here') #enter your own token here
