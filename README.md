@@ -36,10 +36,10 @@ This is a Discord bot that allows users to play interactive games like Wordle an
    ```env
    DISCORD_BOT_TOKEN=your_discord_bot_token
    ```
-  Or directly add the token into the file
+  Or directly add the token into the main file
   ```env
-
-```
+  bot.run('token here') #enter your own token here
+  ```
 4. Run the bot:
 
    ```bash
