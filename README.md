@@ -1,12 +1,12 @@
 # Discord Mini Game Bot
 
-This is a Discord bot that allows users to play interactive games like Wordle and Blackjack directly within their Discord server 
+This is a Discord bot that allows users to play games like Wordle and Blackjack directly within their Discord server 
 ## Features
 
 - **Wordle**: A word guessing game where you have six attempts to guess a 5-letter word.
 - **Blackjack**: A classic card game where the goal is to beat the dealer by getting a hand value as close to 21 as possible without exceeding it.
 
-  **More games will be added in the future
+*(Note) More games will be added in the future*
 
 ## Installation
 
