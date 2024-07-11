@@ -6,7 +6,7 @@ This is a Discord bot that allows users to play games like Wordle and Blackjack 
 - **Wordle**: A word guessing game where you have six attempts to guess a 5-letter word.
 - **Blackjack**: A classic card game where the goal is to beat the dealer by getting a hand value as close to 21 as possible without exceeding it.
 
-*(Note) More games will be added in the future*
+    *(Note) More games will be added in the future*
 
 ## Installation
 
@@ -36,10 +36,12 @@ This is a Discord bot that allows users to play games like Wordle and Blackjack 
    ```env
    DISCORD_BOT_TOKEN = your_discord_bot_token
    ```
-  Or directly add the token into the main file
-  ```env
-  bot.run('DISCORD_BOT_TOKEN') #enter your own token here
-  ```
+     Or directly add the token into the         main file
+   
+   ```env
+   bot.run('DISCORD_BOT_TOKEN')
+   ```
+
 4. Run the bot:
 
    ```bash
@@ -51,6 +53,8 @@ This is a Discord bot that allows users to play games like Wordle and Blackjack 
 ### Starting the Bot
 
 After running the bot script, the bot should be online in your Discord server.
+
+*(Note) bot will go offline when script is stopped*
 
 ### Commands
 
