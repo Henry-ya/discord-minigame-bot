@@ -31,12 +31,15 @@ This is a Discord bot that allows users to play interactive games like Wordle an
    pip install discord.py discord-ui
    ```
 
-3. Create a file named `.env` in the root directory of the project and add your Discord bot token:
+3. (Optional) Create a file named `.env` in the root directory of the project and add your Discord bot token:
 
    ```env
    DISCORD_BOT_TOKEN=your_discord_bot_token
    ```
+  Or directly add the token into the file
+  ```env
 
+```
 4. Run the bot:
 
    ```bash
