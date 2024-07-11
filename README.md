@@ -5,7 +5,7 @@ This is a Discord bot that allows users to play interactive games like Wordle an
 
 - **Wordle**: A word guessing game where you have six attempts to guess a 5-letter word.
 - **Blackjack**: A classic card game where the goal is to beat the dealer by getting a hand value as close to 21 as possible without exceeding it.
-# More games will be added in the future
+- *More games will be added in the future
 ## Installation
 
 ### Prerequisites
@@ -23,9 +23,12 @@ This is a Discord bot that allows users to play interactive games like Wordle an
    cd discord-game-bot
 
 2. Install the required packages:
-    ```bash
-    pip install discord.py discord-ui
+
+   ```bash
+   pip install discord.py discord-ui
 
 3.1. (Optional) Create a file named .env in the root directory of the project and add your Discord bot token:
+  
    ```bash
    DISCORD_BOT_TOKEN=your_discord_bot_token
+
