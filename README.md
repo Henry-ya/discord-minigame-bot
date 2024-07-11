@@ -34,16 +34,16 @@ This is a Discord bot that allows users to play games like Wordle and Blackjack 
 3. (Optional) Create a file named `.env` in the root directory of the project and add your Discord bot token:
 
    ```env
-   DISCORD_BOT_TOKEN=your_discord_bot_token
+   DISCORD_BOT_TOKEN = your_discord_bot_token
    ```
   Or directly add the token into the main file
   ```env
-  bot.run('token here') #enter your own token here
+  bot.run('DISCORD_BOT_TOKEN') #enter your own token here
   ```
 4. Run the bot:
 
    ```bash
-   python bot.py
+   python main.py
    ```
 
 ## Usage
